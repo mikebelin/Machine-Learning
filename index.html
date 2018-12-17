@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <style>
+            .prediction-canvas{ 
+                width: 100px;
+                margin: 20px;
+            }
+            .prediction-div{
+                display: inline-block;
+                margin: 10px;
+            }
+        </style>
+
+        <div class="container" style="padding-top: 20px">
+            <div class="card">
+                <div class="card-header">
+                    <strong>Metropolia: Machine Learning Project using TensorFlow.js</strong>
+                </div>
+                <div class="card-body">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Output Log:</h5>
+                            <div id="log"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Prediction</h5>
+                            <button type="button" class="btn btn-primary" id="selectTestDataButton" disabled>Model is not ready yet, please wait ...</button>
+                            <div id="predictionResult"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

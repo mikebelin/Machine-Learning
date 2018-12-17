@@ -1,0 +1,3 @@
+import { CSVDataset } from './datasets/csv_dataset';
+import { CSVConfig } from './types';
+export declare function csv(source: string, csvConfig?: CSVConfig): CSVDataset;

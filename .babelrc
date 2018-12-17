@@ -1,0 +1,10 @@
+//adding dependencies to be able to use EcmaScript featuress
+{
+    "plugins": [
+        ["transform-runtime",
+        {
+            "polyfill": false,
+            "regenerator": true
+        }]
+    ]
+}
